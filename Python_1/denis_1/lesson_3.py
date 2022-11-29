@@ -10,14 +10,20 @@ for i in range(N1, N2 + 1):
     listt_s.append(i)
 print(listt_s)
 
-pos_1 = int(input('Введите позицию первого элемента : '))
+def number(listt_s):
+    count = 0
+    for x in listt_s:
+        count +=1
+    return count
+print('Количество элементов в списке :',number(listt_s))
+
+pos_1 = int(input('Введите позицию первого элемента :'))
 pos_2 = int(input('Введите позицию второго элемента :'))
 
+for i in range(len(listt_s)):
+    proiz = listt_s[pos_1 - 1] * listt_s[pos_2 - 1]
+print(proiz)
 
-
-
-print(listt_s(pos_1))
-print(listt_s(pos_2))
 
 
 
