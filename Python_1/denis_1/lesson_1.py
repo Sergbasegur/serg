@@ -8,7 +8,4 @@ f = 1
 for i in range(N):
     i = i + 1
     f = i * f
-    print(f, end=', ')
-    
-print()
-print(f)
+    print(f, end=' ')
