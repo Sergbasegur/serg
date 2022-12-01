@@ -16,9 +16,8 @@
 
 #print(ser_1.f(1))
 
-a = {1,2,3}
-b = {1, 4, 5, 6}
-c = a.difference(b)
-k = b.difference(a)
-print(c)
-print(k)
+my_list = [21, 44, 35, 11]
+
+for index, val in enumerate(my_list):
+    print(index, val)
+print(my_list[1])
