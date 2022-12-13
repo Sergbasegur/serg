@@ -1,24 +1,12 @@
-#a = ['d', 'b', 'c', 'qwer']
-#data = open('file.txt', 'a')
-#data.writelines(a) # разделителей не будет
-#data.write('\nLine123\n')
-#data.close()
+users = ['user1', 'user2', 'user3', 'user4','user5']
 
-#path ='file.txt'
-#data = open(path, 'r')
-#for line in data:
-#    print(line)
-#data.close()
-#exit()
-#  Function
+i = [4, 5, 9, 14, 7]
+s = [67, 34, 24]
 
-#import ser_1
+data = list(enumerate(i))
+print(data)
 
-#print(ser_1.f(1))
 
-my_list = [21, 44, 35, 11]
 
-for index, val in enumerate(my_list):
-    print(index, val)
-print(my_list[1])
-print()
+
+
