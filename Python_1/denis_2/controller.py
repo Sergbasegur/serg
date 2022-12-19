@@ -4,7 +4,7 @@ import userBook as ui
 def user_controller():
 
     num = ui.menu()
-    if num < 0 or choice_num > 7:
+    if num < 0 or num > 6:
         print('\nОшибка ввода!\n\nЧисло должно соответствовать пункту меню!\n')
         user_controller()
     elif num == 1:
