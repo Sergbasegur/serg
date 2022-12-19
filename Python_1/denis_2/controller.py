@@ -1,6 +1,6 @@
 import addContact as ac
-import exportFile as f
 import userBook as ui
+import exportFile as f
 import deletContact as d
 
 def user_controller():
@@ -19,6 +19,6 @@ def user_controller():
         d.delete_contact()
     
     elif num == 0:
-        print('\nСпасибо что пользовались нашим приложением!\n\nДо новых встреч!')
+        print('\nВыход из приложения. Пока!')
         exit()
 

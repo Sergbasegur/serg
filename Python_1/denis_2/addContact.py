@@ -4,7 +4,7 @@ import controller
 
 def create():
     json_data = []
-    with open('db.json', 'w') as file:
+    with open('basa_d.json', 'w') as file:
         file.write(json.dumps(json_data, indent=2, ensure_ascii=False))
     controller.user_choice()
 
@@ -20,9 +20,9 @@ def add():
         "Phone number": phone,
         "Comment": comment,
     }
-    data = json.load(open("db.json"))
+    data = json.load(open("basa_d.json"))
     data.append(base_data)
-    with open("db.json", "w") as file:
+    with open("basa_d.json", "w") as file:
         json.dump(data, file, indent=2, ensure_ascii=False)
     print('\nКонтакт успешно добавлен\n')
     controller.user_controller()
