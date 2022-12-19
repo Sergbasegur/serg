@@ -5,7 +5,7 @@ import controller
 path_to_db = 'basa_d.json'
 
 
-def view_all_contacts():
+def view_all_contact():
 
     with open(path_to_db, 'r', encoding='UTF-8') as file:
         data = json.load(file)
