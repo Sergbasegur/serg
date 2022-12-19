@@ -1,6 +1,6 @@
 import json
 import controller
-path_to_db = 'db.json'
+path_to_db = 'basa_d.json'
 
 
 def export_txt():
