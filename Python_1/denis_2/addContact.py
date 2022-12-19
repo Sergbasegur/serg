@@ -25,4 +25,4 @@ def add():
     with open("db.json", "w") as file:
         json.dump(data, file, indent=2, ensure_ascii=False)
     print('\nКонтакт успешно добавлен\n')
-    controller.user_choice()
+    controller.user_controller()
