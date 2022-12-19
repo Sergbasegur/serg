@@ -11,7 +11,7 @@ def start():
 def menu():
     what_to_do = 'Выберите соответствующую цифру в меню:'
     to_exit = '0. Выход'
-    addContact = '1. Создать контакт'
+    addContact = '1. Создать новый справочник'
     create_contact= '2. Добавить новый контакт'
     exportFile = '3. Экспортировать контакты в файл'
     delete_contact = '4. Удалить контакт'
