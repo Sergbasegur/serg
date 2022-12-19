@@ -3,9 +3,9 @@ from exportFile import export_txt
 
 
 def start():
-    greeting = 'Это твоя телефонная книга'
+    book = 'Это твоя телефонная книга'
 
-    print(f'{greeting}\n')
+    print(f'{book}\n')
 
 
 def menu():
