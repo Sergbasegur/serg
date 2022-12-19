@@ -6,7 +6,7 @@ def create():
     json_data = []
     with open('basa_d.json', 'w') as file:
         file.write(json.dumps(json_data, indent=2, ensure_ascii=False))
-    controller.user_choice()
+    controller.user_controller()
 
 
 def add():

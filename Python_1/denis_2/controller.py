@@ -6,7 +6,7 @@ import deletContact as d
 def user_controller():
 
     num = ui.menu()
-    if num < 0 or num > 6:
+    if num < 0 or num > 5:
         print('\nОшибка ввода!\n\nЧисло должно соответствовать пункту меню!\n')
         user_controller()
     elif num == 1:
