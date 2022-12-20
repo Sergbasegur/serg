@@ -32,8 +32,7 @@ def sistemSchool():
                 sistemSchool()
             exit()
     else:
-        print('повторите')
-    exit()
+        exit()
 
 
 sistemSchool()
