@@ -25,7 +25,7 @@ def sistemSchool():
         c = input('Введите ID школьника для вывода по классам: ')
         if c in sCab.class_id['ID']:
             index = sCab.class_id['ID'].index(c)
-            print(f"{sCab.class_id['Предмет'][index]}\n, номер класса - {sCab.class_id['Номер класса'][index]}, это {sCab.class_id['Ряды в классе'][index]}, Имя : {chi.children_id['Имя'][index]}, Фамилия : {chi.children_id['Фамилия'][index]}, Успеваемость у школьника : {chi.children_id['Успеваемость'][index]}")
+            print(f"предмет {sCab.class_id['Предмет'][index]}, номер класса - {sCab.class_id['Номер класса'][index]}, это {sCab.class_id['Ряды в классе'][index]}, Имя : {chi.children_id['Имя'][index]}, Фамилия : {chi.children_id['Фамилия'][index]}, Успеваемость у школьника : {chi.children_id['Успеваемость'][index]}")
             print('\nХотите выполнить другую операцию??? Y или N: ')
             num = input()
             if num == 'Y' or 'y' or 'У' or 'у':
