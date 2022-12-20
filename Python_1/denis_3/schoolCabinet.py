@@ -1,6 +1,6 @@
 import pandas as ch
 
-print('----'*30)
+print('----'*12)
 print('Информация о классах')
 
 class_id = {
