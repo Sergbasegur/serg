@@ -14,7 +14,7 @@ def sistemSchool():
         surnam = str(input("Введите фамилию ученика: "))
         if surnam in chi.children_id['Фамилия']:
             index = chi.children_id['Фамилия'].index(surnam)
-        print(f"{chi.children_id['ID'][index]}, {chi.children_id['Имя'][index]},{chi.children_id['Фамилия'][index]}\n,{chi.children_id['Дата рождения'][index]}, {chi.children_id['Успеваемость'][index]}")
+        print(f"{chi.children_id['ID'][index]}, {chi.children_id['Имя'][index]},{chi.children_id['Фамилия'][index]},{chi.children_id['Дата рождения'][index]}, {chi.children_id['Успеваемость'][index]}")
         print('\nХотите выполнить какую-то другую операцию??? Y или N: ')
         num = input()
         if num == 'Y' or 'y' or 'У' or 'у':
